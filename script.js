@@ -7,9 +7,9 @@ document.querySelector('.hamburger').addEventListener("click",()=>{
         document.querySelector('.cross').style.display='none'
     }
     else{
-        document.querySelector('.cross').style.display='none'
+        document.querySelector('.cross').style.display='inline'
         setTimeout(()=>{
-            document.querySelector('.ham').style.display='inline'
+            document.querySelector('.ham').style.display='none'
         },300);
     }
 })
