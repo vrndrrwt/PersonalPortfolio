@@ -194,7 +194,7 @@
         font-size: 10px;
     }
     .devPic{
-        display: none;
+        display: flex;
     }
     .intro,.blogcontainer,.contactform{
         margin: 50px 8px;
